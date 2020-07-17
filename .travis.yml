@@ -2,6 +2,7 @@ language: python
 
 install:
   - pip install django
+  - pip install coverage
 
 script:
   - python manage.py test
